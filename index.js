@@ -68,9 +68,6 @@ app.get('/Cart',(req,res) => {
 
 
 
-
-
-
 app.post('/Sign-Up', async(req,res) => {
         try{
                 const {f_name, l_name, adventurer_id, sex, age, username,password } =  req.body; 
